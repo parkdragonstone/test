@@ -11,7 +11,21 @@
         <h1>FILA Fast Center</h1>
     </header>
 
-    <section id="chartSection">
+    <!-- 로그인 폼 -->
+    <section id="loginSection">
+        <h2>로그인</h2>
+        <form id="loginForm">
+            <label for="username">아이디:</label>
+            <input type="text" id="username" required><br><br>
+            <label for="password">비밀번호:</label>
+            <input type="password" id="password" required><br><br>
+            <button type="submit">로그인</button>
+        </form>
+        <p id="loginError" style="color:red;"></p>
+    </section>
+
+    <!-- 차트를 표시하는 섹션 (로그인 후 표시) -->
+    <section id="chartSection" style="display:none;">
         <h2>차트</h2>
         <div id="chartContainer"></div>
     </section>
