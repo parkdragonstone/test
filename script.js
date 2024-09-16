@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const loginError = document.getElementById('loginError');
 
     // 미리 설정한 유저명과 비밀번호
-    const validUsername = 'admin'; // 원하는 아이디로 변경
-    const validPassword = 'password123'; // 원하는 비밀번호로 변경
+    const validUsername = 'filafastcenter'; // 원하는 아이디로 변경
+    const validPassword = 'fastcenter'; // 원하는 비밀번호로 변경
 
     loginForm.addEventListener('submit', function(event) {
         event.preventDefault();
